@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'wikisearch';
+
+  onTerm(term: string) {
+    console.log('I am in the app and here is term', term)
+  }
 }
