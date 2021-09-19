@@ -7,7 +7,7 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 export class PageListComponent implements OnInit {
 
-  @Input() pages = [];
+  @Input() pages: any = [];
 
   constructor() {
   }
