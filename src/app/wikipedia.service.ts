@@ -15,7 +15,7 @@ export class WikipediaService {
   }
 
   search(term: string) {
-    return this.http.get<WikipediaResponse>('https://en.wikipedia.org/w/api.php', {
+    return this.http.get<WikipediaResponse>('https://ru.wikipedia.org/w/api.php', {
       params: {
         action: 'query',
         format: 'json',
